@@ -1,0 +1,40 @@
+# Pharmacy Sales BI Project 
+
+End-to-end Business Intelligence project using the **[Pharmacy OTC Sales Data (2022](https://www.kaggle.com/datasets/atharvasoundankar/pharmacy-otc-sales-data-2022)** dataset from Kaggle.
+
+Sales performance analytics solution: data model, transformations, SQL analysis, and interactive dashboard.
+
+# Business Scenario
+
+- Sales performance over time  
+- Top-performing products and categories  
+- Differences between countries/regions  
+- Opportunities for growth and margin improvement  
+
+As a BI Analyst, the goals of this project are to:
+
+- Design a sales data model
+- Clean and transform the Kaggle transactional data  
+- Build a set of KPIs and dashboards for stakeholders  
+- Provide data-driven insights and recommendations
+
+# Dataset
+
+-Source: Kaggle – [Pharmacy OTC Sales Data (2022)](https://www.kaggle.com/datasets/atharvasoundankar/pharmacy-otc-sales-data-2022)  
+-Description: Simulated transactional sales data for OTC medicine across several countries between Jan–Aug 2022  
+
+Main original columns (may vary slightly):
+
+- `Date`  
+- `Country`  
+- `Region`  
+- `Product`  
+- `Category`  
+- `Quantity`  
+- `Unit_Price`  
+- `Total_Sales`  
+
+The raw CSV file is stored in:
+
+```text
+data/raw/pharmacy_otc_sales_2022.csv
